@@ -1,0 +1,66 @@
+html{
+	scroll-behavior: smooth;
+}
+
+.navbar{
+	padding: 0% 10%;
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+.nav-link{
+	color: yellow;
+	margin: 7px;
+	border-radius: 15px;
+	transition: .4s;
+}
+
+.nav-link:hover{
+	background: #cf6025;
+	color: #030303;
+	transform: scale(1.1);
+}
+
+.banner-container{
+	height: 100vh;
+}
+.banner-container h1{
+	font-size: 4rem;
+	background-color: rgba(0, 0, 0, 0.7);
+	border-radius: 100px;
+	padding: 2% 5%;
+}
+.banner-container button{
+	background-color: #008c0e;
+}
+.banner-container button:hover{
+	transform: scale(1.1);
+	transition: .3s;
+	background: #15e012;
+}
+
+body{
+	background: url(img/bg4.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100px;
+}
+.list{
+	padding: 75% 75%;
+}
+/*footer starts*/
+footer{
+	margin-top: 87px;
+	padding: 5% 7%;
+	background: black;
+	height: 280px;
+}
+footer a{
+	color: #09f705;
+	margin: 10px;
+}
+footer a:hover{
+	color: white;
+}
+/*footer ends*/
